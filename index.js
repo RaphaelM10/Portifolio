@@ -2,6 +2,7 @@ const sec= document.getElementById('sgbd');
 const sec1= document.getElementById('sgbd-img');
 const el= document.getElementById('el');
 const mysql= document.getElementById('mysql-div');
+const mysqlimg= document.getElementById('mysql-img');
 const mysqltxt= document.getElementById('mysql');
 
 const port= document.getElementById('port');
@@ -13,6 +14,8 @@ iconic.addEventListener('click',()=>{
    
 }
 )
+
+
 
 function Port(){
     setInterval(() => {
@@ -38,12 +41,14 @@ function Click(){
               el.style.fontFamily = 'Kanit'
               el.style.borderRadius = '10px'
               el.style.transition = '1.5s'
+              sec1.style.display = 'none'
               mysql.style.display = 'none'
       }else{
           el.innerHTML = 'Banco de Dados'
           el.style.fontSize = ''
           el.style.backgroundColor = ''
           mysql.style.display = ''
+          sec1.style.display = ''
          }
       })
   
@@ -58,13 +63,29 @@ function Click(){
             mysqltxt.style.borderRadius = '10px'
             mysqltxt.style.transition = '1.5s'
             sec.style.display = 'none'
+            mysqlimg.style.display = 'none'
+          
+            
     }else{
         mysqltxt.innerHTML = 'MySQL'
         mysqltxt.style.fontSize = ''
         mysqltxt.style.backgroundColor = ''
         sec.style.display = ''
+        mysqlimg.style.display = ''
+       
        }
     })
   
 }
 Click()
+
+
+
+
+
+const portf = document.getElementById('opc-mobile1');
+
+portf.addEventListener('click',()=>{
+    alert('Em Construção...')
+    
+})
