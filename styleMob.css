@@ -804,6 +804,12 @@ footer .footer-links p{
             display: block;
             color: #fff;
             cursor: pointer;
+
+        }
+        #iconic:hover{
+        
+            background-color: #370368;
+            
         }
         .material-symbols-outlined {
             font-variation-settings:
@@ -824,37 +830,36 @@ footer .footer-links p{
         .section-mobile-active{
             display: inline;
             transition: 0.5s;
-           
+            width: 100%;
             animation: transit forwards 1s;
-            float: right;
-            background-color: #601fb6;
             position: absolute;
+            border-bottom: 3px solid #fff;
             top: 100px;
             z-index: 1;
             
         }
         @keyframes transit{
             0%{
-                right: -300px;
+                opacity: 0;
             }
             10%{
-                right: -300px;
+                opacity: 0.50;
             }
             100%{
-                right: 0;
+                opacity: 1;
             }
         }
         .section-mobile .opc-mobile{
             display: flex;
             flex-direction: column;
-            background-color: rgb(115, 39, 187);
+            background-color: #370368;
             height: 530px;
-            width: 150px;
+           
             padding: 50px;
             text-align: center;
             transition: 1.5s;
             justify-content: space-around;
-            border: 3px  solid #fff;
+            
             border-right: none;
             border-top: none;
            align-items: center;
@@ -862,7 +867,7 @@ footer .footer-links p{
             
         }
         .section-mobile .opc-mobile:hover{
-            background-color: #370368;
+           
 
             
         }
@@ -1166,28 +1171,18 @@ footer .footer-links p{
             z-index: 1;
             
         }
-        @keyframes transit{
-            0%{
-                right: -300px;
-            }
-            10%{
-                right: -300px;
-            }
-            100%{
-                right: 0;
-            }
-        }
+  
         .section-mobile .opc-mobile{
             display: flex;
             flex-direction: column;
-            background-color: rgb(115, 39, 187);
+            background-color: #370368;
             height: 530px;
-            width: 150px;
+          
             padding: 50px;
             text-align: center;
             transition: 1.5s;
             justify-content: space-around;
-            border: 3px  solid #fff;
+        
             border-right: none;
             border-top: none;
            align-items: center;
@@ -1195,7 +1190,7 @@ footer .footer-links p{
             
         }
         .section-mobile .opc-mobile:hover{
-            background-color: #370368;
+            
 
             
         }
@@ -1498,28 +1493,20 @@ footer .footer-links p{
             z-index: 1;
             
         }
-        @keyframes transit{
-            0%{
-                right: -300px;
-            }
-            10%{
-                right: -300px;
-            }
-            100%{
-                right: 0;
-            }
-        }
+        
+        
+        
         .section-mobile .opc-mobile{
             display: flex;
             flex-direction: column;
-            background-color: rgb(115, 39, 187);
+            background-color: #370368;
             height: 530px;
-            width: 150px;
+           
             padding: 50px;
             text-align: center;
             transition: 1.5s;
             justify-content: space-around;
-            border: 3px  solid #fff;
+         
             border-right: none;
             border-top: none;
            align-items: center;
@@ -1527,7 +1514,7 @@ footer .footer-links p{
             
         }
         .section-mobile .opc-mobile:hover{
-            background-color: #370368;
+            
 
             
         }
@@ -1845,28 +1832,18 @@ footer .footer-links p{
             z-index: 1;
             
         }
-        @keyframes transit{
-            0%{
-                right: -300px;
-            }
-            10%{
-                right: -300px;
-            }
-            100%{
-                right: 0;
-            }
-        }
+    
         .section-mobile .opc-mobile{
             display: flex;
             flex-direction: column;
-            background-color: rgb(115, 39, 187);
+            background-color: #370368;
             height: 530px;
-            width: 140px;
+          
             padding: 50px;
             text-align: center;
             transition: 1.5s;
             justify-content: space-around;
-            border: 3px  solid #fff;
+          
             border-right: none;
             border-top: none;
            align-items: center;
@@ -1874,7 +1851,7 @@ footer .footer-links p{
             
         }
         .section-mobile .opc-mobile:hover{
-            background-color: #370368;
+          
 
             
         }

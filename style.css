@@ -151,7 +151,7 @@ body{
     
 }
 .section-5 div img{
-    margin-top: 100px;
+    margin-top: 80px;
     width: 300px;
     margin-bottom: 40px;
     
@@ -212,7 +212,10 @@ body{
 .section-outros div p{
     color: #fff;
 }
-
+.section-outros div img:hover{
+    padding: 3px;
+    transition: 1s;
+}
 
 
 
@@ -235,6 +238,7 @@ body{
 }
 .section-outros2 div img:hover{
     padding: 10px;
+    transition: 1s;
 }
 
 
