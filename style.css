@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Mukta&family=Roboto+Condensed:wght@700&display=swap');
 
 *{
   padding: 0;
@@ -95,9 +95,6 @@ body{
     font-weight: 500;
     font-size: 30px;
     color: #fff;
-   
-
-
    
 }
 .section img{

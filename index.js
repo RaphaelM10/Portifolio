@@ -20,7 +20,19 @@ const txt_bi = document.getElementById('txt-bi')
 
 
 iconic.addEventListener('click',()=>{
+
+  
+  if(iconic.innerHTML == 'expand_more'){
     ativar.classList.toggle('section-mobile-active');
+    iconic = document.getElementById('iconic').innerHTML = 'Close'
+    
+}else if(iconic.innerHTML == 'Close'){
+    ativar.classList.toggle('section-mobile-active')
+    iconic = document.getElementById('iconic').innerHTML = 'expand_more'
+    
+}
+    
+    
    
 }
 )
