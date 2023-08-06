@@ -29,18 +29,26 @@
     <a href='#contatos'> <span id="iconic-opc" class="material-symbols-outlined">contacts</span>
         <span  class="opc-txt">Contatos</span></a> </a>
     </div></a>
+
+    <div class="opc-div" onclick='Noturno()'>
+        <a id="iconic-opc" ><span id="dark-iconic" style="font-size: 30px;" class="material-symbols-outlined">Toggle_off</span>
+        <span id="txt-dark" class="opc-txt">Modo Dark</span></a>
+    </div>
+
         </div>
+        
         <span  id="iconic" class="material-symbols-outlined">expand_more</span>
     </header>
-    <main>
+    <main id="main">
         <section id="ativar" class="section-mobile">
-            <div class='opc-mobile'>
+            <div  class='opc-mobile'>
+                <p onclick='Noturno()' id="Dark-mobile" >Modo Dark</p>
                 <p id="opc-mobile1">Projetos</p>
                 <a href="#sobre"><p>Sobre</p></a>
                 <a href='#contatos'><p>Contatos</p></a>
             </div>
         </section>
-        <section class='section'>
+        <section id="section" class='section'>
             
             <h1>Seja Bem Vindo ao Portifólio!<br/>
                 Meu nome é Raphael <br/> e verá um pouco sobre <br/> 
@@ -49,13 +57,14 @@
             <img src='./img/computador.jpg'></img>
             
         </section>
-        <section class='section-2'>
-                <p>Portifólio Criado com objetivo de demonstrar 
+        <section  class='section-2'>
+                <p id="section-2-p">Portifólio Criado com objetivo de demonstrar 
                     um pouco de meu trabalho
                     como programador e design.</p>
         </section>
-        <section id="sobre" class='section-3'>
-                <p>Hoje irie contar um pouco de minha experiencia. Começei minha jornada de Programador 
+        <section id="sec-3" class='section-3'>
+            <div id="sobre">
+                <p id="sobres">Hoje irie contar um pouco de minha experiencia. Começei minha jornada de Programador 
                     a cerca de 2 anos em um projeto de desenvolvimento Mobile e atualmente estou focado em 
                     desenvolvimento no mundo de front-end, mas também gosto de fazer uma analise de dados usando
                     SGBD SQL. 
@@ -63,6 +72,7 @@
                     cada vez mais um programador completo.<br/>
                     Continue nesta página para mais detalhes:
                 </p>
+            </div>
         </section>
         <section id="sec-4" class='section-4'>
                 <img id="html-img" src='./img/html.png'></img>
@@ -70,10 +80,10 @@
                 <img id=""src='./img/js.png'></img>
                 <img id=""style="animation:'infinite 10s loading'" src='./img/react.png'></img>
         </section>
-        <section class='section-5'>
+        <section class='section-5' id="sec-5">
                 <div>
                     <img src='./img/html.png'></img>
-                    <p>Para começo no meu desenvolvimento Front-End começei com o HTML
+                    <p id="sec-5-txt">Para começo no meu desenvolvimento Front-End começei com o HTML
                     (Linguagem de Marcação de Hipertexto), o HTML é o componente base da web. 
                     Isso quer dizer que ele permite a construção de websites e a inserção de novos conteúdos, 
                     como imagens e vídeos, por meio dos hipertextos.
@@ -81,19 +91,19 @@
                 </div>
                 <div>
                     <img src='./img/css.png'></img>
-                    <p>Logo em seguida começei a estlizar a página deixando-lá mais atrativa com o CSS,  
+                    <p id="sec-5-txt">Logo em seguida começei a estlizar a página deixando-lá mais atrativa com o CSS,  
                         O CSS ajuda a editar, alinhar, remover e trabalhar no espaço entre elementos de uma página.
                     </p>
                 </div>
                 <div>
                     <img src='./img/js.png'></img>
-                    <p>Fechando a seguencia da triplice de Front-End, temos o JavaScript . O JavaScript é uma linguagem de programação de alto nível criada, 
+                    <p id="sec-5-txt">Fechando a seguencia da triplice de Front-End, temos o JavaScript . O JavaScript é uma linguagem de programação de alto nível criada, 
                         a princípio, para ser executada em navegadores e manipular comportamentos de páginas web.
                     </p>
                 </div>
                 <div>
                     <img style='animation: infinite 10s loading;'src='./img/react.png'></img>
-                    <p>
+                    <p id="sec-5-txt">
                         Ao me aprofunda em JavaScript, com um tempo conheci uma fomosa Biblioteca do JavaScript o React.
                         O React é um Biblioteca JavaScript criado pelo Facebook (atual Meta) 
                         que é usado para criar interfaces de usuário (UI) em aplicativos web. 
@@ -102,7 +112,7 @@
                     </p>
                 </div>
         </section>
-        <section class='section-out'>
+        <section class='section-out' id="outros-conteudo">
             <p>Outros conteudos especializados:</p>
         </section>
         <section id="outros" class='section-outros'>
@@ -125,7 +135,7 @@
                 <p id="txt-bi">PowerBI</p>
             </div>
         </section>
-        <section class='section-links'>
+        <section id="sec-links" class='section-links'>
                 <p id="links">Links úteis:</p>
         </section>
         <section id='contatos' class='section-contatos'>
@@ -143,7 +153,7 @@
                 </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <div class='footer-links'>
             <a href="#links"><p >Links úteis</p></a>
             <a href='https://discord.gg/Gw8vg5PnbU' target='_blank'><p>Discord</p></a>

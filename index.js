@@ -165,3 +165,76 @@ portf.addEventListener('click',()=>{
     
 })
 
+
+
+const dark = document.getElementById('modo-dark');
+const darkiconic = document.getElementById('dark-iconic');
+const txticonic = document.getElementById('txt-dark');
+const main = document.getElementById('section');
+
+
+
+
+
+function Noturno(){
+
+    if(txticonic.innerHTML == 'Modo Dark'){
+        txticonic.innerHTML = 'Modo Light'
+        darkiconic.innerHTML = '<span id="iconic-opc" id="iconic-dark" class="material-symbols-outlined">toggle_on</span>'
+        document.getElementById('topo').style.backgroundColor = 'black'
+        document.getElementById('section-2-p').style.backgroundColor= 'black'
+        main.style.backgroundImage = 'linear-gradient(#09080a,#291335)'
+        document.getElementById('sobres').style.backgroundImage = 'linear-gradient(#09080a,#291335)'
+        document.getElementById('footer').style.backgroundImage = 'linear-gradient(#09080a,#291335)'
+        document.getElementById('sec-3').style.backgroundImage= 'linear-gradient(#09080a,#291335)'
+        document.getElementById('sec-4').style.backgroundColor = 'Black'
+        document.getElementById('sec-5').style.backgroundImage = 'linear-gradient(#09080a,#291335)'
+        document.getElementById('outros-conteudo').style.backgroundColor = 'Black'
+        document.getElementById('outros').style.backgroundColor = 'Black'
+        document.getElementById('outros2').style.backgroundColor = 'Black'
+        document.getElementById('sec-links').style.backgroundColor = 'Black'
+        document.getElementById('contatos').style.backgroundImage = 'linear-gradient(#09080a,#291335)'
+        document.getElementById('Dark-mobile').innerHTML = 'Modo Light'
+        
+
+        const sec5 = document.querySelectorAll('#sec-5-txt')
+        for (let i = 0; i < sec5.length; i++) {
+            const el = sec5[i];
+            el.style.backgroundColor = 'black'
+        }
+        
+        
+        
+    }else{
+        txticonic.innerHTML = 'Modo Dark'
+        darkiconic.innerHTML = '<span id="iconic-opc" id="iconic-dark" class="material-symbols-outlined">Toggle_off</span>'
+        document.getElementById('section-2-p').style.backgroundColor= ''
+        document.getElementById('topo').style.backgroundColor = ''
+        main.style.backgroundImage = ''
+        document.getElementById('sobres').style.backgroundImage = ''
+        document.getElementById('footer').style.backgroundImage =''
+        document.getElementById('sec-3').style.backgroundImage = ''
+        document.getElementById('sec-4').style.backgroundColor = ''
+        document.getElementById('sec-5').style.backgroundImage = ''
+        document.getElementById('sec-5-txt').style.backgroundColor = ''
+        const sec5 = document.querySelectorAll('#sec-5-txt')
+        for (let i = 0; i < sec5.length; i++) {
+            const el = sec5[i];
+            el.style.backgroundColor = ''
+        }
+        document.getElementById('outros-conteudo').style.backgroundColor = ''
+        document.getElementById('outros').style.backgroundColor = ''
+        document.getElementById('outros2').style.backgroundColor = ''
+        document.getElementById('sec-links').style.backgroundColor = ''
+        document.getElementById('contatos').style.backgroundImage = ''
+        document.getElementById('Dark-mobile').innerHTML = 'Modo Dark'
+
+        
+    }
+
+}
+   
+   
+
+
+
