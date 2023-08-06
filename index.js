@@ -30,22 +30,11 @@ iconic.addEventListener('click',()=>{
     ativar.classList.toggle('section-mobile-active')
     iconic = document.getElementById('iconic').innerHTML = 'expand_more'
     
-}
-    
-    
-   
+} 
 }
 )
 
-
-
-
-
-
-
-
-
-
+/* função clique */
 function Click(){
     sec.addEventListener('click',()=>{
         if(el.innerHTML == 'Banco de Dados'){ 
@@ -102,9 +91,8 @@ function Click(){
 
     div_py.addEventListener('click',()=>{
         if(txt_py.innerHTML == 'Python'){
-            txt_py.innerHTML = `<p> O Power BI é uma coleção de serviços de software, 
-            aplicativos e conectores que trabalham juntos para transformar suas fontes de dados não 
-            relacionadas em informações coerentes, visualmente envolventes e interativas.</p>`
+            txt_py.innerHTML = `<p>O Python é uma linguagem de programação amplamente usada em aplicações da Web, 
+            desenvolvimento de software, ciência de dados e machine learning (ML)</p>`
             logo_py.style.display = 'none'
             logo_bi.style.display = 'none'
             txt_py.style.backgroundColor = '#601fb6'
@@ -170,13 +158,10 @@ function Click(){
 }
 Click()
 
-
-
-
-
 const portf = document.getElementById('opc-mobile1');
 
 portf.addEventListener('click',()=>{
     alert('Em Construção...')
     
 })
+

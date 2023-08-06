@@ -41,8 +41,9 @@ body{
     justify-content: space-around;
     background-color: rgb(115, 39, 187);
     align-items: center;
-    padding: 40px;
+    padding: 45px;
     width: 100%;
+   
    
 }
 
@@ -56,22 +57,37 @@ body{
     justify-content: space-around;
     gap: 30px;
 }
-.opc p{
-    color:   rgb(115, 39, 187);
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 10px;
-    font-family: 'Mukta', sans-serif;
+
+
+.opc .opc-div a{
+    color: #fff;
     cursor: pointer;
-    transition: 0.5s;
 }
-.opc p:hover{
-    background-color: #b700ff;
-    padding: 17px;
+.opc .opc-div a .opc-txt{
+   
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'kanit', sans-serif;
+   
+    
+}
+.opc-div a:hover{
+    transition: 0.1s;
+    border-top: 3px solid #fff;
     color: #fff;
 
 }
+#iconic-opc{
+    font-size: 30px;
+}
+.opc-div a{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
 
+}
 #iconic{
     display: none;
 }
@@ -191,6 +207,7 @@ body{
     justify-content: space-around;
     background-color:   rgb(115, 39, 187);
     padding: 50px;
+    font-family: 'kanit';
 }
 
 .section-outros div{
