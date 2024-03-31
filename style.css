@@ -96,14 +96,16 @@ body{
 }
 
 .section{
-    padding-top: 60px;
+    padding-top: 200px;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 70px;
+    padding-bottom: 200px;
     background-image: linear-gradient(#4e1a7e,#7909e2,#601fb6);
-    
+    align-items: center;
+
    
 }
+
 .section h1{
     padding-top: 40px;
     font-family: 'Kanit', sans-serif;
@@ -112,9 +114,9 @@ body{
     color: #fff;
    
 }
-.section img{
-    border-radius: 15px;
-    width: 500px;
+#span-comp{
+    font-size: 120px;
+    color: #fff;
 }
 
 .section-2{
@@ -133,16 +135,18 @@ body{
     background-image: linear-gradient(#4e1a7e,#7909e2,#601fb6);
     padding-top: 100px;
     text-align: center;
-   
+    padding-bottom: 40px;
 
 }
 
 .section-3 p{
-    font-size: 19px;
+    border-radius: 70px;
+    font-size: 24px;
     color: #fff;
-    padding: 80px 20px 20px 20px;
+    font-weight: 400;
+    padding: 80px 20px 100px 20px;
     background-color:  rgb(115, 39, 187) ;
-    font-family: 'Kanit', sans-serif;
+    font-family: "kanit", sans-serif;
 }
 .section-4{
    
@@ -155,29 +159,39 @@ body{
 .section-4 img{
     width: 100px; 
 }
+.section-4 img:hover{
+    rotate: 360deg;
+    padding: 10px;
+    transition: 1s;
+}
 .section-5{
-
+    padding-top: 100px;
     text-align: center;
     background-image: linear-gradient(#4e1a7e,#7909e2,#601fb6);
-    padding-bottom: 60px;
+    padding-bottom: 100px;
     
 }
-.section-5 div img{
-    margin-top: 80px;
-    width: 300px;
-    margin-bottom: 40px;
+.section-5 h1{
     
-}
-
-.section-5 div p{
+    font-weight: 400;
     color: #fff;
-    padding: 30px;
-    font-family: 'Kanit', sans-serif;
-    background-color:  rgb(115, 39, 187);
-    margin: 0px 20px 0px 20px;
+    font-family: "kanit", sans-serif;
+}
+.section-6{
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgb(104, 28, 175);
+    border-top: 3px solid #fff;
+    padding-bottom: 100px;
+
     
 }
-
+.section-6 h1{
+    padding: 20px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "kanit", sans-serif;
+}
 
 @keyframes loading {
 	from {
@@ -207,6 +221,7 @@ body{
     background-color:   rgb(115, 39, 187);
     padding: 50px;
     font-family: 'kanit';
+    font-size: 20px;
 }
 
 .section-outros div{
@@ -217,7 +232,7 @@ body{
 }
 
 .section-outros div img{
-    width: 100px;
+    width: 150px;
     cursor: pointer;
     
 }
@@ -233,6 +248,7 @@ body{
 
 
 .section-outros2{
+    font-size: 20px;
     display: flex;
     justify-content: space-around;
     padding: 30px;

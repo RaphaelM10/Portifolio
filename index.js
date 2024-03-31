@@ -37,10 +37,9 @@ iconic.addEventListener('click',()=>{
 /* função clique */
 function Click(){
     sec.addEventListener('click',()=>{
-        if(el.innerHTML == 'Banco de Dados'){ 
-              el.innerHTML = `<p> Um banco de dados
-              é uma coleção organizada de informações ou dados 
-              estruturadas, normalmente armazenadas eletronicamente em  um sistema de computador.</p>`
+        if(el.innerHTML == 'Excel'){ 
+              el.innerHTML = `<p> O excel permite a criação e 
+              organização de dados a partir da criação e edição de planilhas onde os dados principais a serem trabalhados são números.</p>`
               
               el.style.backgroundColor = '#601fb6'
               el.style.padding = '10px'
@@ -50,7 +49,7 @@ function Click(){
               sec1.style.display = 'none'
               mysql.style.display = 'none'
       }else{
-          el.innerHTML = 'Banco de Dados'
+          el.innerHTML = 'Excel'
           el.style.fontSize = ''
           el.style.backgroundColor = ''
           mysql.style.display = ''
@@ -123,9 +122,8 @@ function Click(){
 
     div_bi.addEventListener('click',()=>{
         if(txt_bi.innerHTML == 'PowerBI'){
-            txt_bi.innerHTML = `<p> O Power BI é uma coleção de serviços de software, 
-            aplicativos e conectores que trabalham juntos para transformar suas fontes de dados não 
-            relacionadas em informações coerentes, visualmente envolventes e interativas. </p>`
+            txt_bi.innerHTML = `<p>Projetos PowerBI: </p>`
+            var x = document.createElement("IMG");
             logo_bi.style.display = 'none'
             logo_py.style.display = 'none'
             txt_bi.style.backgroundColor = '#601fb6'
@@ -234,7 +232,12 @@ function Noturno(){
 
 }
    
-   
+const sec5 = [...document.querySelectorAll('#sec-5-txt')]
+sec5.map((el)=>{
+  el.addEventListener('click',()=>{
+    el.style.backgroundColor = 'blue'
+  })
+})
 
 
 
