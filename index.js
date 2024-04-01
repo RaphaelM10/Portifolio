@@ -157,12 +157,9 @@ function Click(){
 }
 Click()
 
-const portf = document.getElementById('opc-mobile1');
-portf.addEventListener('click',()=>{
+function Alerta(){
     alert('Em Construção...')
-    
-})
-
+}
 
 
 
