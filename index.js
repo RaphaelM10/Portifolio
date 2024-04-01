@@ -122,7 +122,8 @@ function Click(){
 
     div_bi.addEventListener('click',()=>{
         if(txt_bi.innerHTML == 'PowerBI'){
-            txt_bi.innerHTML = `<p>Projetos PowerBI: </p>`
+            txt_bi.innerHTML = `<p>Power BI é a ferramenta de avaliação e visualização de dados da Microsoft, 
+            que tem como principal finalidade o apoio a decisões assertivas através do Business Intelligence (BI). </p>`
             var x = document.createElement("IMG");
             logo_bi.style.display = 'none'
             logo_py.style.display = 'none'
@@ -157,11 +158,11 @@ function Click(){
 Click()
 
 const portf = document.getElementById('opc-mobile1');
-
 portf.addEventListener('click',()=>{
     alert('Em Construção...')
     
 })
+
 
 
 
