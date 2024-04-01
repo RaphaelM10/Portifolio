@@ -187,25 +187,26 @@ function Noturno(){
         document.getElementById('sec-3').style.backgroundImage= 'linear-gradient(#09080a,#291335)'
         document.getElementById('sec-4').style.backgroundColor = 'Black'
         document.getElementById('sec-5').style.backgroundImage = 'linear-gradient(#09080a,#291335)'
+        document.getElementById('sec-6').style.backgroundImage = 'linear-gradient(#09080a,#291335)'
         document.getElementById('outros-conteudo').style.backgroundColor = 'Black'
-        document.getElementById('outros').style.backgroundColor = 'Black'
-        document.getElementById('outros2').style.backgroundColor = 'Black'
-        document.getElementById('sec-links').style.backgroundColor = 'Black'
+        document.getElementById('outros').style.backgroundColor = 'black'
+        document.getElementById('outros2').style.backgroundColor = 'black'
+        document.getElementById('sec-links').style.backgroundColor = 'black'
         document.getElementById('contatos').style.backgroundImage = 'linear-gradient(#09080a,#291335)'
         document.getElementById('Dark-mobile').innerHTML = 'Modo Light'
         
 
-        const sec5 = document.querySelectorAll('#sec-5-txt')
-        for (let i = 0; i < sec5.length; i++) {
-            const el = sec5[i];
-            el.style.backgroundColor = 'black'
-        }
-        
+      
         
         
     }else{
         txticonic.innerHTML = 'Modo Dark'
         darkiconic.innerHTML = '<span id="iconic-opc" id="iconic-dark" class="material-symbols-outlined">Toggle_off</span>'
+        document.getElementById('outros-conteudo').style.backgroundColor = ''
+        document.getElementById('outros').style.backgroundColor = ''
+        document.getElementById('outros2').style.backgroundColor = ''
+        document.getElementById('sec-links').style.backgroundColor = ''
+        document.getElementById('contatos').style.backgroundImage = ''
         document.getElementById('section-2-p').style.backgroundColor= ''
         document.getElementById('topo').style.backgroundColor = ''
         main.style.backgroundImage = ''
@@ -214,17 +215,8 @@ function Noturno(){
         document.getElementById('sec-3').style.backgroundImage = ''
         document.getElementById('sec-4').style.backgroundColor = ''
         document.getElementById('sec-5').style.backgroundImage = ''
-        document.getElementById('sec-5-txt').style.backgroundColor = ''
-        const sec5 = document.querySelectorAll('#sec-5-txt')
-        for (let i = 0; i < sec5.length; i++) {
-            const el = sec5[i];
-            el.style.backgroundColor = ''
-        }
-        document.getElementById('outros-conteudo').style.backgroundColor = ''
-        document.getElementById('outros').style.backgroundColor = ''
-        document.getElementById('outros2').style.backgroundColor = ''
-        document.getElementById('sec-links').style.backgroundColor = ''
-        document.getElementById('contatos').style.backgroundImage = ''
+        document.getElementById('sec-6').style.backgroundImage = ''
+        document.getElementById('sec-6-txt').style.backgroundColor = ''
         document.getElementById('Dark-mobile').innerHTML = 'Modo Dark'
 
         
@@ -232,12 +224,12 @@ function Noturno(){
 
 }
    
-const sec5 = [...document.querySelectorAll('#sec-5-txt')]
+/*const sec5 = [...document.querySelectorAll('#sec-6-txt')]
 sec5.map((el)=>{
   el.addEventListener('click',()=>{
     el.style.backgroundColor = 'blue'
   })
-})
+})*/
 
 
 
