@@ -1225,12 +1225,12 @@ footer .footer-links p{
         }
     
         
-        .section-5 h1{
+        .section-5 {
             color: #fff;
             padding: 30px;
             font-size: 13px;
             font-family: 'Kanit', sans-serif;
-            background-color:  rgb(115, 39, 187);
+            background-image: linear-gradient(#4e1a7e,#7909e2,#601fb6);
             margin: 20 20px 20 20px;
             
         }
@@ -1531,12 +1531,12 @@ footer .footer-links p{
         }
     
         
-        .section-5 h1{
+        .section-5 {
             color: #fff;
             padding: 30px;
             font-size: 13px;
             font-family: 'Kanit', sans-serif;
-            background-color:  rgb(115, 39, 187);
+            background-image: linear-gradient(#4e1a7e,#7909e2,#601fb6);
             margin: 20 20px 20 20px;
             
         }
@@ -1868,16 +1868,7 @@ footer .footer-links p{
             margin-bottom: 40px;
             
         }
-        
-        .section-5 div p{
-            color: #fff;
-            padding: 30px;
-            font-size: 12px;
-            font-family: 'Kanit', sans-serif;
-            background-color:  rgb(115, 39, 187);
-            margin: 20 20px 20 20px;
-            
-        }
+
         
         
         
