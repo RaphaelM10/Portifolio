@@ -5,131 +5,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">  
-    <link rel="stylesheet" href="styleMob.css"> 
+    <link rel="stylesheet" href="stylemob.css"> 
     <link rel="shortcut icon" href="./img/not.png" type="image/x-icon">
-    <title>My Portfolio</title>
+    <title>Web Developer</title>
 </head>
 <body>
     <header id="topo" class='header'>
         <div>
-            <h1 id="port">Web Developer</h1>
+            <a href="http://127.0.0.1:5500/index.html"><h1>Web Developer</h1></a>
         </div>
-        <div class='opc' >
-            <div id="Projetos"class="opc-div" >
-                <a onclick="Alerta()" id="opc-mobile1"><span id="iconic-opc" class="material-symbols-outlined">token</span>
-                 <span class="opc-txt" >Projetos</span> </a>
+        <div class='menu' >
+        <div class="menu-div">
+            <a href="#contato" id="iconic-menu"><span  style="font-size: 30px;" class="material-symbols-outlined">contacts_product</span>
+            <span  class="menu-txt">Contatos</span></a>
+           
         </div>
-
-        <div class="opc-div">
-        <a href='#sobre'><span id="iconic-opc" class="material-symbols-outlined">arrow_circle_right</span>
-        <span class="opc-txt">Sobre</span></a>
+       
+    <div class="menu-div" onclick='Noturno()'>
+        <a id="iconic-menu" ><span id="dark-iconic" style="font-size: 30px;" class="material-symbols-outlined">Toggle_off</span>
+        <span id="txt-dark" class="menu-txt">Modo Dark</span></a>
     </div>
-   
-   <div class="opc-div" >
-    <a href='#contatos'> <span id="iconic-opc" class="material-symbols-outlined">contacts</span>
-        <span  class="opc-txt">Contatos</span></a> </a>
-    </div></a>
-
-    <div class="opc-div" onclick='Noturno()'>
-        <a id="iconic-opc" ><span id="dark-iconic" style="font-size: 30px;" class="material-symbols-outlined">Toggle_off</span>
-        <span id="txt-dark" class="opc-txt">Modo Dark</span></a>
-    </div>
-
         </div>
         
-        <span  id="iconic" class="material-symbols-outlined">expand_more</span>
     </header>
     <main id="main">
-        <section id="ativar" class="section-mobile">
-            <div  class='opc-mobile'>
-                <p onclick='Noturno()' id="Dark-mobile" >Modo Dark</p>
-                <p onclick="Alerta()" id="opc-mobile1">Projetos</p>
-                <a href="#sobre"><p>Sobre</p></a>
-                <a href='#contatos'><p>Contatos</p></a>
-            </div>
-        </section>
+      
        
         <section id="section" class='section'>
-            
-            <h1 class="section-h1">Programador WEB 
-            </h1>
-            <span class="material-symbols-outlined" id="span-comp">
-                close
-                </span>
-            <h1>Análista de dados</h1>
-            
+            <div class="section-txt">
+                <h1 class="section-h1">Olá, Eu sou o <br> Raphael Mendes </h1>
+                <p>Programador e Análista de dados </p>
+                <div class="section-sobre">
+                    <p>Ver Sobre Mim</p>
+                </div>
+            </div>
+            <img  src="./img/minhafoto.png">
         </section>
+
+
+
+
         <section  class='section-2'>
-                <p id="section-2-p">Esse Portifólio está sempre em constante atualização, com objetivo de demonstrar 
-                    um pouco de meu trabalho
-                    e de minhas habilidades que consegui ao decorrer dos meus estudos.</p>
+                <h1>Olá, Sou Raphael, é um prazer lhe conhecer!</h1>
+                <p>Desde criança, sempre fui apaixonado por tecnologia. Mesmo muito jovem, resolvia problemas e encontrava soluções que, muitas vezes, nem mesmo meus pais, com mais experiência no uso de tecnologia, conseguiam resolver. Adoro enfrentar desafios, buscar soluções e ouvir o feedback das pessoas. É extremamente gratificante saber que meu trabalho faz a diferença e é valorizado por quem o utiliza.
+                </p>
         </section>
         <section id="sec-3" class='section-3'>
-            <div id="sobre">
-                <p id="sobres">Olá, me chamo Raphael Mendes e vou contar um pouco de minha história. Desde a minha infância, fui fascinado pelo mundo da tecnologia. Meu interesse pela computação e pela inovação estabeleceu uma vonta de sempre conhecer algo novo.
-
-                    Com uma paixão inabalável por desvendar os segredos dos códigos, embarquei em uma jornada como programador, dedicando-me a dominar as linguagens de programação e explorar os limites da criação de software. Minha habilidade em desenvolver soluções eficientes me fez cada vez a ter mais vontade de aprender no campo da tecnologia.
-                    
-                    Além do meu domínio em programação, também me destaco como analista de dados. Minha capacidade de extrair insights valiosos a partir de conjuntos complexos de dados é muito interessante. Utilizo meu conhecimento para fornecer análises precisas, ajudando empresas a tomar decisões informadas e estratégicas.
-                    
-                    Sou um profissional incansável, sempre em busca de aprimoramento e inovação. 
-                    
-                    Fora do mundo da tecnologia, gosto de realizar atividades como corrida e futebol. Acredito que a diversidade de experiências e conhecimentos é essencial para o crescimento pessoal e profissional. Meu compromisso com a excelência e minha paixão pela inovação continuam a me impulsionar em direção a novas conquistas e sucessos.
-                    
-                    Sou muito mais do que apenas um programador e analista de dados. Sou um visionário, um solucionador de problemas e um agente de mudanças no cenário tecnológico em constante evolução.
-                    
+            <div>
+                <p >Sou graduado em Análise e Desenvolvimento de Sistemas pela Faculdade Estácio de Sá. Tenho uma forte capacidade analítica e 
+                    um comprometimento inabalável em encontrar soluções eficazes para os problemas que enfrento. 
+                    Estou constantemente desenvolvendo projetos e me dedicando a estudos para aprimorar meus conhecimentos e habilidades na área
                 </p>
             </div>
+            <div class="section-3-mot">
+            <span>#sempreaprender</span>
+            <span>#nuncadesistir</span>
+            <span>#focototal</span>
+        </div>
         </section>
+       
+     
+
         <section id="sec-4" class='section-4'>
-                <img id="html-img" src='./img/html.png'></img>
-                <img id=""src='./img/css.png'></img>
-                <img id=""src='./img/js.png'></img>
-                <img id=""style="animation:'infinite 10s loading'" src='./img/react.png'></img>
-        </section>
-        <section id="sec-5" class='section-5' >
-                <h1 >Sobre meu inicio de caminhada como programador, iniciei meus passos com interesse em desenvolvimento WEB, o começo foi realizado com a triplice WEB, HTML, CSS e o Java script.
-                    Começei com desenvolvimento em criação de pequenos sites, até a criação de maiores com mais tecnologias avançadas.
-                </h1>
-        </section>
-        <section class='section-6' id="sec-6">
-            <h1>Partindo para aréa de dados, após algum tempo de programador, Meu interesse pela área de dados acabou surgindo.
-                Quando mergulhei nas complexidades do desenvolvimento de software, descobri que os dados eram mais do que apenas informações, eram o ponto central de tomada de 
-                decisões inteligentes e estratégicas. Foi através dessa linguagem de programação que percebi o poder transformador dos dados. Desde então, 
-                tenho dedicado minha carreira a explorar, buscando constantemente inovação e excelência na área de análise de dados.
-            </h1>
+            <div class="section-4-img">
+            <img id="html-img" src='./img/analisededados.png'></img>
+            <h1>Analista de Dados</h1>
+            <p>Gosto de analises profundas e tomadas de decisões</p>
+            <h2>Minhas Skills:</h2>
+            <p>Python, SQL, Power BI e Excel</p>
+            <h2>Ferramentas de Utilizo:</h2>
+            <p>Visual Studio Code</p>
+            <p>Microsoft Excel</p>
+            <p>Power BI Desktop</p>
+            <p>Jupyter Notebook</p>
+            <p>MySQL Workbench</p>
+        </div>
+        <div class="section-4-img">
+            <img id=""src='./img/desenvolvedor.png'></img>
+            <h1>Desenvolvedor Front End</h1>
+            <p>Sempre amei tecnologia e gosto de desenvolver sites do zero.</p>
+            <h2>Minhas Skills:</h2>
+            <p>HTML, CSS, Java Script e React</p>
+            <h2>Ferramentas de Utilizo:</h2>
+            <p>Visual Studio Code</p>
+            <p>Atom</p>
+            <p>Github</p>
+            <p>Netlify</p>
+        </div>
+
     </section>
+      
 
         <section class='section-out' id="outros-conteudo">
-            <p>Clique para ver meus Projetos por skills:</p>
+            <p>Projetos mais recentes:</p>
         </section>
-        <section id="outros" class='section-outros'>
-            <div id="sgbd">
-                <img id="sgbd-img" src='./img/microsoft-excel.png'></img>
-                <p id="el">Excel</p>
+        <section  class='section-projetos'>
+            <div class="section-projetos-div" style="border: 2px solid rgb(187, 106, 39);">
+                <h2>Análise de dados financeira</h2>
+                <p>Ánalise financeira simples, feito com dados importados do Excel e exibidos no power BI.</p>
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiNDdkZmE5OWQtM2VmYS00MTAzLWI3OGYtZDNmZDgyMmQ3ZjNjIiwidCI6IjhjYzFiNGM2LWE3MDEtNDFiNy04Zjc2LWI2NDkwNWJhNzMxNyJ9" target='_blank' > <span>Visualizar Projeto</span> </a>
             </div>
-            <div id="mysql-div">
-                <img id="mysql-img" src='./img/MySQL-Logo.png'></img>
-                <p id="mysql">MySQL</p>
+            <div class="section-projetos-div" style="border: 2px solid rgb(16, 47, 146);"> 
+                <h2>Análise de dados de industria</h2>
+                <p>Dashboard feito junto a Hashtag Treinamentos, com dados importados do Excel e exibidos no power BI.</p>
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiMzdiZDJmYjctNjBlMi00ZDQ3LWI0N2QtMDE4M2M2MTBmY2ViIiwidCI6IjhjYzFiNGM2LWE3MDEtNDFiNy04Zjc2LWI2NDkwNWJhNzMxNyJ9" target="_blank"><span>Visualizar Projeto</span></a>
             </div>
+            <div class="section-projetos-div">
+                <h2>Página redirecionamento</h2>
+                <p>Página simpes de redirecionamento, feita com tecnologia html5 e css3.</p>
+                <a href="https://raphaelm10.github.io/technexustechnology/" target="_blank"><span>Visualizar Projeto</span></a>
+            </div>
+           <div>
+             
+           </div>
         </section>
-        <section id="outros2" class='section-outros2'>
-        <div id="div-py">
-                <img id="logo-py" src='./img/logo-python.png'></img>
-                <p id="txt-py">Python</p>
+
+        <section class='section-out' id="outros-conteudo">
+            <p>Serviços:</p>
+        </section>
+        <section  class='section-servicos'>
+            <div class="section-servicos-div">
+                <h2>Analise de Dados</h2>
+                <p>Realizo análises e tomo decisões com base nos dados fornecidos ou gerados.</p>
             </div>
-            <div id="div-bi">
-                <img id="logo-bi" src='./img/PowerBI.png'></img>
-                <p id="txt-bi">PowerBI</p>
+            <div class="section-servicos-div">
+                <h2>Desenvolvimento WEB</h2>
+                <p>Crio sites do zero, com designs atrativos e uma ótima experiência para o usuário.</p>
             </div>
+           
         </section>
 
         <section id="sec-links" class='section-links'>
-                <p id="links">Links úteis:</p>
+                <p id="links">Contatos:</p>
         </section>
-        <section id='contatos' class='section-contatos'>
+        <section id='contato' class='section-contatos'>
                 <div>
-                    <a href='https://www.linkedin.com/in/raphael-mendes-2aa1931ba/'target='_blank'><img src='./img/linkedin.png'></img></a>
+                    <a href='https://www.linkedin.com/in/raphaelmendess/'target='_blank'><img src='./img/linkedin.png'></img></a>
                     <p>Linkedin</p>
                 </div>
                 <div>
@@ -143,18 +154,8 @@
         </section>
     </main>
     <footer id="footer">
-        <div class='footer-links'>
-            <a href="#links"><p >Links úteis</p></a>
-            <a href='https://discord.gg/Gw8vg5PnbU' target='_blank'><p>Discord</p></a>
-            <a href='https://github.com/RaphaelM10' target='_blank'><p>Github</p></a>
-            <a href='https://www.linkedin.com/in/raphael-mendes-2aa1931ba/' target='_blank'><p>Linkedin</p></a>
-            <a href="#topo"><p>Inicio</p></a>
-            <a href="#sobre"><p >Sobre</p></a>
-            <a href="#outros"><p >Outros</p></a>
-            <a href="#outros2"><p >Banco de Dados</p></a>
-           <a href="#topo"><p>Voltar ao Topo</p></a>
-            
-            
+        <div class='footer-info'>
+         <p>&copy; 2024 Raphael Mendes. Todos os direitos reservados.</p>
         </div>
     </footer>
     <script src="./index.js"></script>

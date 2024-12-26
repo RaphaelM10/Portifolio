@@ -1,3 +1,33 @@
+const Open = document.getElementById('open');
+const abrir = document.getElementById('abrir');
+
+
+
+Open.addEventListener('click',()=>{
+    abrir.classList.toggle('abrir')
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const sec= document.getElementById('sgbd');
 const sec1= document.getElementById('sgbd-img');
 const el= document.getElementById('el');
