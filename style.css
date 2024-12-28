@@ -40,18 +40,7 @@ body{
  
   
 .header{
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 2px solid rgb(115, 39, 187);
-    align-items: center;
-    padding: 45px;
-    width: 100%;
-    position: fixed;
-    background-color: #13131f;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-
+   gap: 10px;
    
 }
 
@@ -96,7 +85,9 @@ body{
 
 }
 
-
+.material-symbols-outlined{
+    font-size: 30px;
+}
 #iconic-menu{
    
     font-size: 30px;

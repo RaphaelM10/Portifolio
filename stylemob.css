@@ -408,6 +408,7 @@
     .header div h1{
         font-size: 17px;
         cursor: pointer;
+       
     }
     .menu{
         display: flex;
@@ -423,9 +424,11 @@
         flex-direction: column;
       
     }
-    .dark-iconic{
+    .menu-txt{
         font-size: 10px;
-        
+    }
+    .material-symbols-outlined{
+        font-size: 22px;
     }
     .section{
       
