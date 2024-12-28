@@ -397,6 +397,11 @@
         font-size: 10px;
         
     }
+    .section{
+        display: flex;
+        flex-direction: column-reverse;
+     
+    }
     .section-txt h1{
         font-size: 18px;
         font-weight: 400;
@@ -411,6 +416,10 @@
         border-radius: 10px;
         font-size: 10px ;
        
+    }
+    .section img{
+        width: 30%;
+    
     }
     .section-2{
         padding: 0;
