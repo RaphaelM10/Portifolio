@@ -389,17 +389,46 @@
 
 @media (max-width:415px){
    
+ 
+    .header{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 2px solid rgb(115, 39, 187);
+        align-items: center;
+        padding: 30px;
+        width: 100%;
+        position: fixed;
+        background-color: #13131f;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    
+       
+    }
     .header div h1{
-        font-size: 18px;
+        font-size: 17px;
         cursor: pointer;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    
+    }
+    
+    .menu-div{
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+      
     }
     .dark-iconic{
         font-size: 10px;
         
     }
     .section{
-        display: flex;
-        flex-direction: column-reverse;
+      
      
     }
     .section-txt h1{
@@ -418,7 +447,7 @@
        
     }
     .section img{
-        width: 30%;
+
     
     }
     .section-2{
