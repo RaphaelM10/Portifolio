@@ -388,11 +388,167 @@
 
 
 @media (max-width:415px){
+   
     .header div h1{
-        font-size: 17px;
+        font-size: 18px;
         cursor: pointer;
     }
     .dark-iconic{
         font-size: 10px;
+        
+    }
+    .section-txt h1{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .section-txt p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .section-sobre p{
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 10px ;
+       
+    }
+    .section-2{
+        padding: 0;
+    
+    }
+
+    .section-2 h1{
+        margin-top: 0;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+    .section-2 p{
+        margin: 0;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 0px;
+
+    }
+    .section-3{
+    
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 40px;
+    
+    }
+    
+    .section-3 p{
+       
+        font-size: 15px;
+        color: #fff;
+        font-weight: 400;
+        padding: 80px 20px 100px 20px;
+   
+    }
+    
+    .section-3-mot{
+        margin-top: 20px;
+  
+        font-weight: 400;
+      
+    }
+
+    .section-4{
+   
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    .section-4-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:  #321c66;
+        border-radius:0px;
+        padding: 50px;
+        text-align: center;
+        color: #fff;
+        box-shadow: 20px 20px 20px 20px #0d0d13;
+    }
+    .section-4-img h1{
+        margin-top: 30px;
+        font-weight: 400;
+    
+        
+    }
+    
+    .section-4-img h2{
+        margin-top: 30px;
+        font-weight: 400;
+      
+     
+    }
+    
+    .section-4 img{
+        width: 100px; 
+    }
+    .section-4 img:hover{
+        rotate: 360deg;
+        padding: 10px;
+        transition: 1s;
+    }
+    .section-out{
+        margin-top: 30px;
+    }
+    .section-out p{
+       font-size: 15px;
+        
+    }
+    .section-servicos{
+        padding: 0;
+    }
+    .section-servicos-div{
+        padding: 30px;
+        
+    }
+    
+    
+    .section-servicos div h2{
+        
+        margin-bottom: 30px;
+
+    }
+    .section-links{
+        margin-top: 30px;
+    }
+
+
+
+
+    .section-contatos{
+        margin: 30px 0px 30px 0px;
+       padding: 40px;
+       
+        
+    }
+    .section-contatos div{
+      
+    }
+    .section-contatos div p{
+    
+       
+    }
+    .section-contatos div img{
+        width: 70px;
+        cursor: pointer;
+       
+    }
+    .section-contatos div img:hover{
+        transition: 0.5s;
+        border-radius: 10px;
+    
+        padding: 10px;
+    }
+    .footer-info p{
+        font-size: 12px;
     }
 }
