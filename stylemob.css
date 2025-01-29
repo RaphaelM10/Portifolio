@@ -431,16 +431,17 @@
         font-size: 22px;
     }
     .section{
-      
+      display: flex;
+      flex-direction: column-reverse;
      
     }
     .section-txt h1{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 400;
     }
 
     .section-txt p{
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 400;
     }
     .section-sobre p{
@@ -450,7 +451,7 @@
        
     }
     .section img{
-
+        width: 160px;
     
     }
     .section-2{
