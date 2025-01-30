@@ -12,17 +12,17 @@
 <body>
     <header id="topo" class='header'>
         <div>
-            <a href="http://127.0.0.1:5500/index.html"><h1>Web Developer</h1></a>
+            <a href="https://raphaelm10.github.io/Portifolio/"><h1>Web Developer</h1></a>
         </div>
         <div class='menu' >
         <div class="menu-div">
-            <a href="#contato" id="iconic-menu"><span   class="material-symbols-outlined">contacts_product</span>
+            <a href="#links" id="iconic-menu"><span  class="material-symbols-outlined">contacts_product</span>
             <span  class="menu-txt">Contatos</span></a>
            
         </div>
        
-    <div class="menu-div" onclick='Noturno()'>
-        <a id="iconic-menu" ><span id="dark-iconic" class="material-symbols-outlined">Toggle_off</span>
+    <div class="menu-div" id="dark-iconic">
+        <a id="iconic-menu" ><span id="dark-active" class="material-symbols-outlined">Toggle_off</span>
         <span id="txt-dark" class="menu-txt">Modo Dark</span></a>
     </div>
         </div>
@@ -35,9 +35,10 @@
             <div class="section-txt">
                 <h1 class="section-h1">Olá, Eu sou o <br> Raphael Mendes </h1>
                 <p>Programador e Análista de dados </p>
-                <div class="section-sobre">
-                    <p>Ver Sobre Mim</p>
-                </div>
+                <a href="#section2" > <div class="section-sobre">
+                 <p>Ver Sobre Mim</p>
+                </div> </a>
+                </div> 
             </div>
             <img  src="./img/minhafoto.png">
         </section>
@@ -45,13 +46,13 @@
 
 
 
-        <section  class='section-2'>
-                <p>Desde criança, sempre fui apaixonado por tecnologia. Mesmo muito jovem, resolvia problemas e encontrava soluções que, muitas vezes, nem mesmo meus pais, com mais experiência no uso de tecnologia, conseguiam resolver. Adoro enfrentar desafios, buscar soluções e ouvir o feedback das pessoas. É extremamente gratificante saber que meu trabalho faz a diferença e é valorizado por quem o utiliza.
+        <section id="section2" class='section-2'>
+                <p class="dark">Desde criança, sempre fui apaixonado por tecnologia. Mesmo muito jovem, resolvia problemas e encontrava soluções que, muitas vezes, nem mesmo meus pais, com mais experiência no uso de tecnologia, conseguiam resolver. Adoro enfrentar desafios, buscar soluções e ouvir o feedback das pessoas. É extremamente gratificante saber que meu trabalho faz a diferença e é valorizado por quem o utiliza.
                 </p>
         </section>
-        <section id="sec-3" class='section-3'>
+        <section   id="sec-3" class='section-3 '>
             <div>
-                <p >Sou graduado em Análise e Desenvolvimento de Sistemas pela Faculdade Estácio de Sá. Tenho uma forte capacidade analítica e 
+                <p class="dark">Sou graduado em Análise e Desenvolvimento de Sistemas pela Faculdade Estácio de Sá. Tenho uma forte capacidade analítica e 
                     um comprometimento inabalável em encontrar soluções eficazes para os problemas que enfrento. 
                     Estou constantemente desenvolvendo projetos e me dedicando a estudos para aprimorar meus conhecimentos e habilidades na área
                 </p>
@@ -66,7 +67,7 @@
      
 
         <section id="sec-4" class='section-4'>
-            <div class="section-4-img">
+            <div class="section-4-img dark" >
             <img id="html-img" src='./img/analisededados.png'></img>
             <h1>Analista de Dados</h1>
             <p>Gosto de analises profundas e tomadas de decisões</p>
@@ -79,7 +80,7 @@
             <p>Jupyter Notebook</p>
             <p>MySQL Workbench</p>
         </div>
-        <div class="section-4-img">
+        <div class="section-4-img dark">
             <img id=""src='./img/desenvolvedor.png'></img>
             <h1>Desenvolvedor Front End</h1>
             <p>Sempre amei tecnologia e gosto de desenvolver sites do zero.</p>
@@ -109,7 +110,7 @@
                 <p>Dashboard feito junto a Hashtag Treinamentos, com dados importados do Excel e exibidos no power BI.</p>
                 <a href="https://app.powerbi.com/view?r=eyJrIjoiMzdiZDJmYjctNjBlMi00ZDQ3LWI0N2QtMDE4M2M2MTBmY2ViIiwidCI6IjhjYzFiNGM2LWE3MDEtNDFiNy04Zjc2LWI2NDkwNWJhNzMxNyJ9" target="_blank"><span>Visualizar Projeto</span></a>
             </div>
-            <div class="section-projetos-div">
+            <div class="section-projetos-div" style="border: 2px solid rgb(124, 16, 146);">
                 <h2>Página redirecionamento</h2>
                 <p>Página simpes de redirecionamento, feita com tecnologia html5 e css3.</p>
                 <a href="https://raphaelm10.github.io/technexustechnology/" target="_blank"><span>Visualizar Projeto</span></a>
@@ -123,11 +124,11 @@
             <p>Serviços:</p>
         </section>
         <section  class='section-servicos'>
-            <div class="section-servicos-div">
+            <div class="section-servicos-div dark">
                 <h2>Analise de Dados</h2>
                 <p>Realizo análises e tomo decisões com base nos dados fornecidos ou gerados.</p>
             </div>
-            <div class="section-servicos-div">
+            <div class="section-servicos-div dark"  >
                 <h2>Desenvolvimento WEB</h2>
                 <p>Crio sites do zero, com designs atrativos e uma ótima experiência para o usuário.</p>
             </div>

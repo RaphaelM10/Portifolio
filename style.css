@@ -4,15 +4,34 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+ 
+}
+
+
+:root{
+    --background-color: #13131f;
+    --text-color: #fff;
+ 
+    
+}
+.darkMode{
+    --background-color: #fff;
+    --text-color: black;
 }
 a{
   text-decoration: none;
+  color: var(--text-color);
+   
+  
+ 
 }
 body{
     overflow-x: hidden;
-    background-color: #13131f;
+    background-color: var(--background-color);
     font-family: "kanit", sans-serif;
     overflow: visible;
+    color: var(--text-color);
+    transition: 0.5s;
 
    
 }
@@ -47,16 +66,17 @@ body{
     padding: 45px;
     width: 100%;
     position: fixed;
-    background-color: #13131f;
+    background-color: var(--background-color);
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 5000;
+
 
    
 }
 
 .header div h1{
-    color: #fff;
+ 
     font-family: 'Kanit', sans-serif;
     cursor: pointer;
 }
@@ -75,7 +95,7 @@ body{
     flex-direction: column;
 }
 .menu .menu-div a{
-    color: #fff;
+
     cursor: pointer;
 }
 .menu .menu-div a .menu-txt{
@@ -110,14 +130,12 @@ body{
 
 
 
-
 .section{
     display: flex;
     justify-content: space-around;
     padding-top: 250px;
     text-align: center;
     padding-bottom: 200px;
-    background-color: #13131f;
     align-items: center;
  
 }
@@ -128,7 +146,7 @@ body{
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
     
-    color: #fff;
+  
     margin-bottom: 40px;
    
 }
@@ -148,15 +166,19 @@ body{
 }
 
 .section-sobre p{
+    color: var(--text-color);
     padding: 30px;
     border-radius: 10px;
     border: 2px solid rgb(115, 39, 187);
     transition: 0.5s;
+
   
 }
 
 .section-sobre p:hover{
-    background-color: #210447;
+    background-color: #522d83;
+    color: #FFF;
+
 }
 .section img{
     width: 20%;
@@ -168,7 +190,6 @@ body{
 .section-2{
     color: #fff;
     font-family: 'Kanit', sans-serif;
-    background-color: #18182b;
     padding: 200px;
     text-align: center;
 
@@ -231,7 +252,7 @@ body{
     padding: 50px;
     text-align: center;
     color: #fff;
-    box-shadow: 20px 20px 20px 20px #0d0d13;
+    box-shadow: 5px 10px 10px 5px #0d0d13;
 }
 .section-4-img h1{
     margin-top: 30px;
@@ -296,16 +317,16 @@ body{
 }
 .section-projetos-div:hover{
     border-radius: 15px 0px 0px 0px;
-    transform: rotate(5deg);
+    
 }
 .section-projetos div h2{
-    color: #fff;
+    color: var(--text-color);
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .section-projetos div p{
-    color: #fff;
+    color: var(--text-color);
 }
 
 
@@ -331,7 +352,7 @@ body{
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
-    color: #fff;
+    color: var(--text-color);
     padding: 50px;
     font-family: 'kanit';
     font-size: 20px;
@@ -374,7 +395,7 @@ body{
 }
 
 .section-links p{
-    color: #fff;
+    color: var(--text-color);
     font-family: 'Kanit', sans-serif;
 }
 
@@ -391,7 +412,7 @@ body{
 }
 .section-contatos div p{
 
-    color: #fff;
+    color: var(--text-color);
     font-family: 'Kanit', sans-serif;
 }
 .section-contatos div img{
@@ -408,7 +429,7 @@ body{
 
 
 footer{
-    background-color: #18182b;
+    background-color: var(--background-color);
     border-top: 3px solid  rgb(115, 39, 187);
     text-align: center;
     
@@ -420,6 +441,6 @@ footer{
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    color: #fff;
+    color: var(--text-color);
 }
 
