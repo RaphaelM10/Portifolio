@@ -420,6 +420,13 @@
         flex-direction: column;
       
     }
+    .menu-list{
+    
+       
+        margin-top: 380px;
+       
+    
+    }
     .menu-txt{
         font-size: 10px;
     }
@@ -590,5 +597,16 @@
     }
     .footer-info p{
         font-size: 12px;
+    }
+}
+
+
+@media (max-width:340px){
+    .menu-list{
+    
+       
+        margin-top: 380px;
+       
+    
     }
 }

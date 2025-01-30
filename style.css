@@ -85,6 +85,7 @@ body{
     display: flex;
     justify-content: space-around;
     gap: 30px;
+  
 
 }
 
@@ -93,6 +94,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    
 }
 .menu .menu-div a{
 
@@ -115,7 +117,33 @@ body{
     padding: 3px;
 
 }
+.menu-list{
+    display: none;
+    position: absolute;
+    
+    margin-top: 419px;
+    background-color: #321c66;
+    padding: 40px;
+    color: #fff;
 
+}
+.menu-list-abrir{
+    
+   display: block;
+}
+.menu-list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.menu-list ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.menu-list ul li:hover{
+    color: #321c66;
+    transition: 0.5s;
+}
 .material-symbols-outlined{
     font-size: 30px;
 }
@@ -206,7 +234,7 @@ body{
     border-radius: 0px 0px 50px 50px;
     font-size: 20px;
     white-space: pre-wrap;
-    box-shadow:  10px 10px 10px 10px  #0d0d13;
+ 
     
 }
 
@@ -252,7 +280,7 @@ body{
     padding: 50px;
     text-align: center;
     color: #fff;
-    box-shadow: 5px 10px 10px 5px #0d0d13;
+ 
 }
 .section-4-img h1{
     margin-top: 30px;
@@ -289,7 +317,7 @@ body{
     border: 3px solid  rgb(115, 39, 187);
 }
 .section-out p{
-    color: #fff;
+   
     font-family: 'Kanit', sans-serif;
     
 }

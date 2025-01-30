@@ -39,4 +39,14 @@ iconic.addEventListener('click',()=>{
 })
 
 
-console.log(body)
+
+
+
+
+
+const menulist = document.getElementById('menulist')
+
+function Open() {
+    menulist.classList.toggle('menu-list-abrir')
+}
+
