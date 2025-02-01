@@ -8,7 +8,7 @@ const header = document.getElementById('header');
 const section = document.getElementsByClassName('section');
 const section_servicos = document.querySelectorAll('.dark')
 
-console.log(section_servicos)
+
 
 iconic.addEventListener('click',()=>{
     
@@ -45,7 +45,7 @@ iconic.addEventListener('click',()=>{
 
 
 
-
+/// abrir a lista do menu de contatos
 
 const menulist = document.getElementById('menulist')
 
@@ -68,7 +68,7 @@ restart.addEventListener('click',()=>{
 
 
 
-
+/// Para min, até destino
 
 document.getElementById("partida").addEventListener("click", function() {
     let destino = document.getElementById("destino");

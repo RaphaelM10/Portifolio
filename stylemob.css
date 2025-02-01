@@ -437,7 +437,7 @@
     }
     .menu-list ul{
        
-        margin-left: 40%;
+        width: 100%;
         align-items: center;
      }
     
@@ -681,7 +681,7 @@
     }
     .menu-list ul{
        
-       margin-left: 35%;
+  
        align-items: center;
     }
     .menu-list ul li{
