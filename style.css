@@ -32,8 +32,21 @@ body{
     overflow: visible;
     color: var(--text-color);
     transition: 0.5s;
+    animation: AnimationBody alternate 2s;
 
    
+}
+@keyframes AnimationBody{
+
+    0%{
+        opacity: 0;
+        
+        }
+
+        100%{
+           
+            opacity: 1;
+            }
 }
 /* width */
 ::-webkit-scrollbar {
@@ -70,7 +83,7 @@ body{
     top: 0;
     left: 0;
     z-index: 5000;
-
+   
 
    
 }
@@ -153,6 +166,7 @@ body{
     color: #fff;
     list-style: none;
     cursor: pointer;
+    
 }
 .menu-list ul li:hover{
     color: #6349a1;
@@ -194,6 +208,7 @@ body{
 }
 
 .section-txt h1{
+
     font-size: 50px;
     font-weight: 400;
 }
@@ -356,17 +371,17 @@ body{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    transition: 0.5s;
+ 
     
 }
-.section-projetos-div:hover{
-    border-radius: 15px 0px 0px 0px;
-    
-}
+
+
 .section-projetos div h2{
+    
     color: var(--text-color);
     margin-top: 50px;
     margin-bottom: 50px;
+    transition: 0.5s;
 }
 
 .section-projetos div p{

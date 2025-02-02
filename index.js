@@ -50,7 +50,10 @@ iconic.addEventListener('click',()=>{
 const menulist = document.getElementById('menulist')
 
 function Open() {
+   
     menulist.classList.toggle('menu-list-abrir')
+
+
 }
 
 
