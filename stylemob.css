@@ -832,3 +832,34 @@
        
     }
 }
+
+@media (max-width:298px) {
+    .menu .menu-div a .menu-txt{
+        display: none;
+       
+       
+        
+    }
+    .menu-list{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+        top: 84px;
+        left: 0%;
+        border-radius: 0px 0px 5px 5px;
+        
+        max-height: 100px;
+      
+    
+    }
+       
+    .menu-list-abrir{
+    
+        max-height: 500px;
+        opacity: 1;
+      
+         
+     }
+   
+}

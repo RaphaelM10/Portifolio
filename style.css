@@ -114,7 +114,7 @@ body{
     cursor: pointer;
 }
 .menu .menu-div a .menu-txt{
-   
+    display: block;
     font-size: 15px;
     border-radius: 10px;
     font-family: 'kanit', sans-serif;
