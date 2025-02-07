@@ -371,7 +371,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 30px;
- 
+    align-items: center;
     
 }
 
@@ -395,6 +395,8 @@ body{
 }
 
 .section-projetos div span{
+   
+
     color: rgb(115, 39, 187);
     transition: 0.5s;
     cursor: pointer;
