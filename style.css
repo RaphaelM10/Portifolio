@@ -427,6 +427,8 @@ body{
     cursor: pointer;
     gap: 30px;
     transition: 0.5s;
+   
+    
 }
 .section-servicos-div:hover{
     opacity: 0.50;
@@ -434,6 +436,11 @@ body{
 }
 
 .section-servicos div p{
+    width: 500px; /* Defina uma largura fixa */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word; /* Garante a quebra */
+    white-space: normal; /* Permite múltiplas linhas */
     color: #fff;
     margin-bottom: 50px;
 }

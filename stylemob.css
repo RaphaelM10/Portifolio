@@ -146,6 +146,13 @@
     .header div h1{
         font-size: 25px;
     }
+    .section-2{
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        padding: 40px;
+        text-align: center;
+    
+    }
  
     .section-4{
    
@@ -221,6 +228,14 @@
 
 
 @media (max-width:950px){
+
+    .section-2{
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        padding: 20px;
+        text-align: center;
+    
+    }
     .section-sobre p{
         padding: 30px;
         font-size: 15px;
@@ -361,19 +376,37 @@
    
       
         }
-        .section-projetos-div{
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            width: 100%;
-            padding: 30px;
+    .section-projetos-div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 30px;
             
-            gap: 30px;
-            transition: 0.5s;
+        gap: 30px;
+        transition: 0.5s;
 }
+    .section-servicos div p{
+        width: 400px; /* Defina uma largura fixa */
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word; /* Garante a quebra */
+        white-space: normal; /* Permite múltiplas linhas */
+        margin-bottom: 50px;
+    }
+
 }
 
-
+@media (max-width:630px) {
+    .section-servicos div p{
+        width: 300px; /* Defina uma largura fixa */
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word; /* Garante a quebra */
+        white-space: normal; /* Permite múltiplas linhas */
+        margin-bottom: 50px;
+    }
+}
 
 @media (max-width:590px){
     .section-2 h1{
@@ -622,7 +655,7 @@
 }
 
 
-@media (max-width:345px){
+@media (max-width:440px){
     .header{
         display: flex;
         justify-content: space-around;
