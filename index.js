@@ -87,3 +87,15 @@ document.getElementById("partida").addEventListener("click", function() {
         behavior: "smooth"
     });
 });
+
+
+/// Ano Atual
+
+
+function year(){
+    const ano_atual = new Date().getFullYear();
+    const txt_copy = document.getElementById('txt-copy');
+
+    txt_copy.innerHTML = `<p>&copy; ${ano_atual} Raphael Mendes. Todos os direitos reservados.</p>`
+}
+year()
