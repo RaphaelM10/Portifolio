@@ -119,6 +119,9 @@
   width: 40px;
 
 }
+.section-resumo{
+  padding-top: 10px;
+}
 .skills-img {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 4 colunas */
