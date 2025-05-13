@@ -22,7 +22,7 @@ menubar.addEventListener('click',()=>{
       <a href="#"><span class="menu-txt">Inicio</span></a>
       <a href="#rota-service"><span class="menu-txt">Serviços</span></a>
       <a href="#rota-forms"><span class="menu-txt">Contatos</span></a>
-      <span onclick="alternarModo2()" class="iconic-dark" id="dark-iconic2">Modo Claro</span>
+      <span onclick="alternarModo()" class="material-symbols-outlined iconic-dark troca-iconic" id="dark-iconic">dark_mode</span>
     `;
     header_event.appendChild(novoMenu);
     menubar.textContent = 'Close'; // muda nome do botão
@@ -134,40 +134,22 @@ year()
 
 /// Modo Dark - Ativar e Desativar
 
-const dark_iconic = document.querySelector('#dark-iconic');
-const dark_iconic2 = document.querySelector('#dark-iconic2');
 
+
+function alternarModo() {
+
+const iconic = document.querySelectorAll('.troca-iconic');
 const body = document.getElementsByTagName('body')[0];
 
-function alternarModo(){
-
   body.classList.toggle('alternar');
 
-  if(dark_iconic.innerText == 'dark_mode' ){
-    dark_iconic.innerText = 'light_mode';
-   
+  for (const item of iconic) {
+    if (item.innerText.trim() === 'dark_mode') {
+      item.innerText = 'light_mode';
+    } else {
+      item.innerText = 'dark_mode';
+    }
   }
-  else(
-    dark_iconic.innerText = 'dark_mode'
-    
-  )
+  
 }
-
-/// menu footer
-function alternarModo2(){
-
-  body.classList.toggle('alternar');
-
-  if(dark_iconic2.innerText == 'Modo Claro' ){
-    dark_iconic2.innerText = 'Modo luz';
-   
-  }
-  else(
-    dark_iconic2.innerText = 'dark_mode'
-    
-  )
-}
-
-
-
 
