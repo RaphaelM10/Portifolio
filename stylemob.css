@@ -1,11 +1,14 @@
-@media (max-width:991px){
+@media (max-width:1108px){
   .section-txt h1 {
   font-size: 35px;
  
 }
 .info-icon{
-  padding: 10px;
+  padding: 12px;
     
+}
+.section img {
+ width: 25vh;
 }
 
 }
@@ -108,7 +111,7 @@
 
 @media (max-width:500px){
   .section{
-    padding-top: 170px;
+    padding-top: 150px;
     padding-bottom: 100px;
   }
   .section-sobre div img {
