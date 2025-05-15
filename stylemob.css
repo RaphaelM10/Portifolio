@@ -96,6 +96,11 @@
 
   .section-sobre {
   }
+  .projeto-imagem {
+  height: auto;
+  width: 100%;
+  
+}
 }
 
 @media (max-width: 500px) {

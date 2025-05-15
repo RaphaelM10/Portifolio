@@ -153,3 +153,52 @@ const body = document.getElementsByTagName('body')[0];
   
 }
 
+function abrirModal(titulo, descricao, tecnologias) {
+    document.getElementById('modalTitulo').textContent = titulo;
+    document.getElementById('modalDescricao').textContent = descricao;
+
+    const listaTecnologias = document.getElementById('modalTecnologias');
+    listaTecnologias.innerHTML = '';
+    tecnologias.forEach(tech => {
+      const li = document.createElement('li');
+      li.textContent = tech;
+      listaTecnologias.appendChild(li);
+    });
+
+    document.getElementById('projetoModal').style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function fecharModal() {
+    document.getElementById('projetoModal').style.display = 'none';
+    document.body.style.overflow = '';
+  }
+
+  window.addEventListener('click', function(e) {
+    const modal = document.getElementById('projetoModal');
+    if (e.target === modal) {
+      fecharModal();
+    }
+  });
+
+
+
+function mostrarDashboard(id) {
+  const dashboards = document.querySelectorAll(".dashboard-container");
+
+  dashboards.forEach(d => {
+    if (d.id === id) {
+      // Se o dashboard já estiver visível, fecha ele
+      if (d.style.display === "block") {
+        d.style.display = "none";
+      } else {
+        // Caso contrário, abre ele
+        d.style.display = "block";
+      }
+    } else {
+      // Fecha os outros dashboards
+      d.style.display = "none";
+    }
+  });
+}
+    

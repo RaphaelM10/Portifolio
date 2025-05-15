@@ -161,118 +161,106 @@
           </div>
         </section>
 
-        <section   id="sec-3" class='section-3 '>
-            <div>
-                <h2>Meus Projetos</h2>
-            </div>
-            <div class="container" >
-                <h3 class="mb-4">Relatórios Power BI</h3>
-                <!-- Botões -->
-                <div class="mb-3">
-                  <button class="btn btn-primary me-2 sec-3-button-color" type="button" data-bs-toggle="collapse" data-bs-target="#relatorio1">
-                    Relatório Financeiro
-                  </button>
-                  <button class="btn btn-success me-2 sec-3-button-color" type="button" data-bs-toggle="collapse" data-bs-target="#relatorio2">
-                    Relatório Industrial
-                  </button>
-                  <button style="background-color: rgb(19, 51, 138); border-color: rgb(19, 51, 138);" class="btn btn-warning sec-3-button-color" type="button" data-bs-toggle="collapse" data-bs-target="#relatorio3">
-                    Relatório de Clientes
-                  </button>
-                </div>
-            
-                <!-- Relatório 1 -->
-                <div class="collapse mb-3" id="relatorio1">
-                  <div class="card card-body">
-                    <h5>Relatório Financeiro</h5>
-                    <p>Desenvolvi este projeto utilizando o Power BI e SQL, com o objetivo de consolidar e visualizar os principais indicadores financeiros da empresa. 
-                        O dashboard apresenta um panorama claro do desempenho, com recebimentos totais de R$ 94,6 milhões e pagamentos de R$ 44,8 milhões, 
-                        resultando em um lucro acumulado de R$ 35,5 milhões. 
-                        Os impostos pagos somaram R$ 14,1 milhões, o equivalente a 15% do total..</p>
-                    <iframe style="border-radius: 10px;" title="Relatório Financeiro"
-                            width="100%" height="450"
-                            src="https://app.powerbi.com/view?r=eyJrIjoiNDdkZmE5OWQtM2VmYS00MTAzLWI3OGYtZDNmZDgyMmQ3ZjNjIiwidCI6IjhjYzFiNGM2LWE3MDEtNDFiNy04Zjc2LWI2NDkwNWJhNzMxNyJ9"
-                            frameborder="0"
-                            allowfullscreen></iframe>
-                  </div>
-                </div>
-            
-                <!-- Relatório 2 -->
-                <div class="collapse mb-3" id="relatorio2">
-                  <div class="card card-body">
-                    <h5>Relatório Industrial</h5>
-                    <p>Este projeto, desenvolvido em Power BI, apresenta um panorama detalhado da produção ao longo de 13 meses, com indicadores-chave de desempenho da área industrial. 
-                        No período analisado, foram produzidas 3.084.251 unidades, com um total de 21.076 unidades rejeitadas, refletindo uma taxa de qualidade bastante elevada, 
-                        de 99,32%. O número de horas produtivas registradas foi de 30.956, enquanto as horas paradas totalizaram 8.890.</p>
-                    
-                    <iframe title="Relatório Industrial"
-                            width="100%" height="450"
-                            src="https://app.powerbi.com/view?r=eyJrIjoiMzdiZDJmYjctNjBlMi00ZDQ3LWI0N2QtMDE4M2M2MTBmY2ViIiwidCI6IjhjYzFiNGM2LWE3MDEtNDFiNy04Zjc2LWI2NDkwNWJhNzMxNyJ9"
-                            frameborder="0"
-                            allowfullscreen></iframe>
-                  </div>
-                </div>
-            
-                <!-- Relatório 3 -->
-                <div class="collapse mb-3" id="relatorio3">
-                  <div class="card card-body">
-                    <h5>Relatório de Clientes</h5>
-                    <iframe title="Relatório de Clientes"
-                            width="100%" height="450"
-                            src="https://app.powerbi.com/view?r=LINK-CLIENTES"
-                            frameborder="0"
-                            allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-              
-  <div class="container py-5">
-    <h3 class="text-center mb-4">Meus Projetos de Programação</h3>
+        <!-- Section 3: Projetos em Destaque -->
+<section id="sec-3" class="section-3">
+  <div>
+    <h2 class="servicos-title">Projetos de Programação<span class="dot"></span></h2>
+  </div>
+  <div class="projetos-grid">
+  <div class="projeto-box" onclick="abrirModal(
+    'Página Redirecionamento',
+    'Este projeto consiste em uma página web personalizada que funciona como um hub de links para redirecionar os visitantes do Instagram para outros canais importantes. A página é otimizada para dispositivos móveis e tem como objetivo centralizar os principais links relacionados ao perfil do Instagram, como WhatsApp, site oficial, loja virtual, outras redes sociais e promoções ativas.',
+    ['HTML', 'CSS', 'JavaScript']
+  )">
+    <img src="./img/redirecionamento.png" alt="Collage.fm" class="projeto-imagem">
+    <p class="projeto-nome">Página Redirecionamento</p>
+  </div>
 
-    <div id="carouselProjetos" class="carousel slide carousel-fade"
-         data-bs-ride="carousel"
-         data-bs-interval="4000">
-      <div class="carousel-inner">
+  <div class="projeto-box" onclick="abrirModal(
+    'Calculadora JS',
+    'Este projeto consiste no desenvolvimento de uma calculadora funcional utilizando HTML, CSS e JavaScript puro, sem o uso de bibliotecas ou frameworks externos. A calculadora realiza as quatro operações matemáticas básicas: adição, subtração, multiplicação e divisão.',
+    ['HTML', 'CSS', 'JavaScript']
+  )">
+    <img src="./img//calculadora.png" alt="Movie Guide" class="projeto-imagem">
+    <p class="projeto-nome">Calculadora JS</p>
+  </div>
 
-        <div class="carousel-item active">
-          <img src="./img/redirecionamento.png" class="d-block w-100" alt="Redirecionamento-img">
-          <div class="carousel-caption">
-            <h5>Página de Redirecionamento</h5>
-            <p>Projeto simples desenvolvido para redirecionamentos rápidos no Instagram, utilizando HTML, CSS e JavaScript.</p>
-          </div>
-        </div>
+  <div class="projeto-box" onclick="abrirModal(
+    'R-DATA',
+    'R-DATA é o meu portfólio digital, criado por mim para apresentar de forma clara e profissional quem sou, minhas habilidades e os projetos que desenvolvi. O nome reflete minha conexão com dados, tecnologia e soluções inteligentes.',
+    ['HTML', 'CSS', 'JavaScript', 'React']
+  )">
+    <img src="./img/r-data.png" alt="Daily Weather" class="projeto-imagem">
+    <p class="projeto-nome">R-DATA</p>
+  </div>
+</div>
 
-        <div class="carousel-item">
-          <img src="./img/calculadora.png" class="d-block w-100" alt="Calculadora-img">
-          <div class="carousel-caption">
-            <h5>Calculadora Js</h5>
-            <p>Este projeto consiste em uma calculadora funcional desenvolvida com HTML, CSS e JavaScript puro. 
-              A interface é intuitiva e responsiva, permitindo realizar operações básicas como adição, subtração, multiplicação e divisão. 
-             </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./img/r-data.png" class="d-block w-100" alt="r-data-img">
-          <div class="carousel-caption">
-            <h5>R-DATA</h5>
-            <p>Este projeto é parte do meu portfólio que você está visualizando agora. Foi desenvolvido com muita paciência, dedicação e atenção aos detalhes.
-             </p>
+<!-- Modal atualizado -->
+<div class="projeto-modal" id="projetoModal">
+  <div class="projeto-modal-conteudo">
+    <span class="projeto-modal-fechar" onclick="fecharModal()">&times;</span>
+    <h2 id="modalTitulo"></h2>
+    <p id="modalDescricao"></p>
+    <h4 id="modalTechTitulo">Tecnologias usadas:</h4>
+    <ul id="modalTecnologias"></ul>
+  </div>
+</div>
+
+</section>
+ <section class="section-dados" id="section-dados" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Projetos de Dados</h2>
+
+    <div class="row g-4">
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card project-card" onclick="mostrarDashboard('dashboard1')">
+          <div class="card-body text-center card-edit">
+            <h5 class="card-title">📊 Dashboard de Vendas</h5>
+            <p class="card-text">Análise de desempenho de vendas</p>
           </div>
         </div>
       </div>
 
-      <!-- Navegação Manual -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Próximo</span>
-      </button>
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card project-card" onclick="mostrarDashboard('dashboard2')">
+          <div class="card-body text-center card-edit">
+            <h5 class="card-title">📈 Dashboard Financeiro</h5>
+            <p class="card-text">Lucros, custos e receitas</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card project-card" onclick="mostrarDashboard('dashboard3')">
+          <div class="card-body text-center card-edit">
+            <h5 class="card-title">📦 Dashboard de Estoque</h5>
+            <p class="card-text">Controle de inventário e movimentações</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dashboards -->
+    <div class="dashboard-container" id="dashboard1">
+      <h4 class="text-center mt-5">Dashboard de Vendas</h4>
+      <iframe title="Dashboard-finanças"  src="https://app.powerbi.com/view?r=eyJrIjoiNDdkZmE5OWQtM2VmYS00MTAzLWI3OGYtZDNmZDgyMmQ3ZjNjIiwidCI6IjhjYzFiNGM2LWE3MDEtNDFiNy04Zjc2LWI2NDkwNWJhNzMxNyJ9" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+
+    <div class="dashboard-container" id="dashboard2">
+      <h4 class="text-center mt-5">Dashboard Financeiro</h4>
+      <iframe title="Dashboard-finanças"  src="https://app.powerbi.com/view?r=eyJrIjoiNDdkZmE5OWQtM2VmYS00MTAzLWI3OGYtZDNmZDgyMmQ3ZjNjIiwidCI6IjhjYzFiNGM2LWE3MDEtNDFiNy04Zjc2LWI2NDkwNWJhNzMxNyJ9" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+
+    <div class="dashboard-container" id="dashboard3">
+      <h4 class="text-center mt-5">Dashboard de Estoque</h4>
+      <iframe title="Dashboard-finanças"  src="https://app.powerbi.com/view?r=eyJrIjoiNDdkZmE5OWQtM2VmYS00MTAzLWI3OGYtZDNmZDgyMmQ3ZjNjIiwidCI6IjhjYzFiNGM2LWE3MDEtNDFiNy04Zjc2LWI2NDkwNWJhNzMxNyJ9" frameborder="0" allowFullScreen="true"></iframe>
     </div>
   </div>
-        </section>
-       
+</section>
+
       <section class="section-depoimentos">
         <div class="container py-5">
           <h3 class="section-title">Feedbacks</h3>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos de Dados - Section Dados</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .project-card {
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+
+    .dashboard-container {
+      display: none;
+      margin-top: 30px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SECTION DADOS -->
+  <section id="section-dados" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Projetos de Dados</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card project-card" onclick="mostrarDashboard()">
+            <div class="card-body text-center">
+              <h5 class="card-title">📊 Dashboard Power BI</h5>
+              <p class="card-text">Análise de Vendas e Desempenho</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Adicione mais projetos duplicando este bloco -->
+      </div>
+
+      <div class="dashboard-container" id="dashboard">
+        <h4 class="text-center mt-5">Visualização Power BI</h4>
+        <iframe src="https://app.powerbi.com/view?r=SEU-LINK-AQUI" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function mostrarDashboard() {
+      const dashboard = document.getElementById("dashboard");
+      dashboard.style.display = "block";
+      dashboard.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
