@@ -579,16 +579,16 @@ body.alternar{
 .form-control {
   max-height: 500px;
   overflow-y: auto;
-  background-color: var(--background-color2);
+  background-color: #fff;
   border: none;
-  color: white;
+  color: rgb(39, 36, 36);
 }
 .form-control::placeholder {
-  color: var(--text-color-placeholder);
+  color: rgb(0, 0, 0,0.6);
 }
 .btn-custom {
   background-color: #2643e9;
-  color: white;
+  color: rgb(161, 30, 30);
   border: none;
 }
 .btn-custom:hover {
@@ -628,7 +628,7 @@ button {
 }
 
 .alerta-conteudo {
-  background-color: #131338;
+  background-color: #065ebd;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -645,9 +645,9 @@ button {
 
 .alerta-conteudo button {
   padding: 10px 20px;
-  background: #007bff;
+  background: #ffffff;
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
